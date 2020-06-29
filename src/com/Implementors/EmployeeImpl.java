@@ -7,7 +7,7 @@ import com.Models.Employee;
 
 public class EmployeeImpl {
 	
-	private ArrayList employeeList;
+	private ArrayList<Employee> employeeList;
 	
 	public EmployeeImpl() {
 		this.employeeList = new ArrayList<Employee>();
@@ -42,6 +42,7 @@ public class EmployeeImpl {
 					break;
 				}
 			}
+			sc.close();
 		}
 	}
 	
