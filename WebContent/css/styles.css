@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+.header{
+	font-size: 32px;
+	margin: 0 auto;
+	color:blue;
+	justify-content: center;
+	align-content:center;	
+	display:flex;
+}
+.annoucement{
+	font-size: 32px;
+	margin: 0 auto;
+	color:blue;
+	justify-content: center;
+	align-content:center;	
+	display: flex;
+}
