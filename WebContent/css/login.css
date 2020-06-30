@@ -1,0 +1,79 @@
+@charset "ISO-8859-1";
+body{
+      background: #D1913C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FFD194, #D1913C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container{
+	font-size: large;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	align-content: center;
+    flex-direction: column;
+}
+.title{
+	color: blanchedalmond;
+    align-content: center;
+    margin: 0 auto;
+    margin-bottom: 10vh;
+    margin-top: 20vh;
+}
+.form{
+	text-align: center;
+	width: 80vw;
+	display:flex;
+	margin: 0 auto;
+	align-content: center;
+	flex-direction: column;
+}
+
+.submit{
+	box-shadow: 1px 1px blanchedalmond;
+    border-radius: 1em;
+    border: 0px;
+	width: 20vw;
+	margin: 0 auto;
+	color: white;
+	background-color: #D1913C;
+}
+.username{
+    border-radius: 1em;
+    border: 1px lightgray solid;
+    text-align: center;
+    width: 40vw;
+    align-content: center;
+    justify-content: center;
+	margin: 0 auto;
+	margin-bottom: 5%;
+}
+.password{
+    border-radius: 1em;
+    border: 1px lightgray solid;
+    text-align: center;
+    width: 40vw;
+    align-content: center;
+    justify-content: center;
+	margin: 0 auto;
+
+}
+.username[type="text"] :focus{
+    border-radius: 1em;
+    border: 1px lightgray solid;
+    text-align: center;
+    width: 40vw;
+    align-content: center;
+    justify-content: center;
+	margin: 0 auto;
+	margin-bottom: 5%;
+}
+.password[type="text"] :focus{
+    border-radius: 1em;
+    border: 1px lightgray solid;
+    text-align: center;
+    width: 40vw;
+    align-content: center;
+    justify-content: center;
+	margin: 0 auto;
+
+}
