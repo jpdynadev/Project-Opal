@@ -9,6 +9,7 @@ public class EmployeeImpl {
 	
 	private ArrayList<Employee> employeeList;
 	
+	//constructor
 	public EmployeeImpl() {
 		this.employeeList = new ArrayList<Employee>();
 	}
@@ -25,8 +26,7 @@ public class EmployeeImpl {
 			Employee temp = new Employee(firstname, lastname);
 			em.addEmployee(temp);
 			System.out.println("These are the employees so far");
-			System.out.println(em.allEmployee());
-			
+			em.allEmployee();
 			System.out.println("Would you like to continue? Y or N");
 			String ans = sc.next();
 			while(!em.validateAns(ans)) {
@@ -54,15 +54,15 @@ public class EmployeeImpl {
 		}
 	}
 	
-	public void addEmployee(Employee e) {
+	private void addEmployee(Employee e) {
 		this.employeeList.add(e);
 	}
 	
-	public String allEmployee() {
+	public void allEmployee() {
 		String allEmployees = "";
 		for(int i = 0; i < this.employeeList.size(); i++) {
 			allEmployees += this.employeeList.get(i).toString() + " ";
 		}
-		return allEmployees;
+		System.out.println(allEmployees);
 	}
 }
