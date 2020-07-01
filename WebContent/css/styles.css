@@ -1,17 +1,69 @@
 @charset "ISO-8859-1";
+body{
+	margin-left: 0px;
+}
+.dashboardContainer{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+}
+.greeting{
+	margin: 0 auto;
+	margin-top: 7vh;
+	margin-bottom: 1vh;
+	color: tomato;
+	font-family: 'Times New Roman', Times, serif;
+}
 .header{
-	font-size: 32px;
+	/* font-size: 32px;
 	margin: 0 auto;
 	color:blue;
 	justify-content: center;
 	align-content:center;	
-	display:flex;
+	display:flex; */
 }
 .annoucement{
-	font-size: 32px;
+	/* font-size: 32px;
 	margin: 0 auto;
 	color:blue;
 	justify-content: center;
 	align-content:center;	
-	display: flex;
+	display: flex; */
+}
+.dashboardContainers{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.Manage{
+	box-shadow: 1px -1px 9px darkorange;
+    border: 0px;
+    height: 45vh;
+	width: 30vw;
+	text-align: center;
+}
+.ManageTitle{
+	font-family: serif;
+    border: 1px orange solid;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 10%;
+    box-shadow: 1px 1px 5px orange;
+    font-size: 17px;
+    min-width: 100px;
+}
+.Analyze{
+	box-shadow: 1px -1px 9px darkorange;
+    border: 0px;
+    height: 45vh;
+    width: 30vw;
+}
+.Settings{
+	box-shadow: 1px -1px 9px darkorange;
+    border: 0px;
+    height: 45vh;
+    width: 30vw;
 }
