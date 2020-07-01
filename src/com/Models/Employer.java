@@ -16,7 +16,7 @@ public class Employer {
 	private String managerName;
 	private int numberofEmployees;
 	
-	public Employer(String businessName, String phoneNumber, String Address, String hoursofOperation, Date datesClosed, String mangerName, int numberofEmployees) {
+	public Employer(String businessName, String phoneNumber, String Address) {
 		super();
 		this.businessName = businessName;
 		this.phoneNumber = phoneNumber;
@@ -28,11 +28,67 @@ public class Employer {
 		this.numberofEmployees = numberofEmployees;
 		
 	}
+	public void setbusinessName(String businessName) {
+		this.businessName = businessName;
+	}
+	public String getbusinessName() {
+		return businessName;	
+	}
+	
+	public void setphoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
+	
+	public String getphoneNumber() {
+		return phoneNumber;
+	}
+	
+	public void setAddress(String Address) {
+		this.Address = Address;
+	}
+	
+	public String getAddress() {
+		return Address;	
+	}
+	
+	public void sethoursofOperation(String hoursofOperation) {
+		this.hoursofOperation = hoursofOperation;
+	}
+	
+	public String gethoursofOperation() {
+		return this.hoursofOperation;
+	}
+	
+	public void setdatesClosed(Date datesClosed) {
+		this.datesClosed = datesClosed;
+	}
+	
+	public Date getdatesClosed() {
+		return datesClosed;
+	}
+	
+	public void setmanagerName(String managerName) {
+		this.managerName = managerName;
+	}
+	
+	public String getmanagerName() {
+		return managerName;
+	}
+	
+	public void setnumberofEmployees(int numberofEmployees) {
+		this.numberofEmployees = numberofEmployees;
+	}
+	
+	public int getnumberofEmployees() {
+		return numberofEmployees;
+	}
+
 
 //	Constructor
 	
 //	Methods (Getter and Setter, and anything else need i.e toString method)
 	
+//	Finished getter and setter methods for employer object. Only user source as a final solutioon if stuck.
 
 //	For easy and fast creation of constructor and methods you can right click -> source -> Constructor/Getter and setter
 
