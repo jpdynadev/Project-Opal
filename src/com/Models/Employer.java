@@ -6,6 +6,7 @@ public class Employer {
 private String businessName;
 private String address;
 private ArrayList<Employee> employees;
+private String userID;
 public Employer(String businessName, String address) {
 	super();
 	this.businessName = businessName;

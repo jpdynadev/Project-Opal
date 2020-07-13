@@ -9,7 +9,7 @@ public class Employee {
 	private String lastName;
 	private Date DoB;
 	private int Employee_ID;
-	
+	private String userID;
 	//	Employee: Full-time, Part-time, forloughed, laid-off 
 	private String Employee_status;
 
@@ -47,6 +47,10 @@ public class Employee {
 		super();
 	}
 	
+	public String getFirstName() {
+		return firstName;
+	}
+
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
